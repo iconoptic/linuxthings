@@ -1,0 +1,15 @@
+VirtualBox GUI VM Selector Window 5.1.16 r113841 linux.amd64 (Mar  9 2017 04:02:54) release log
+00:00:00.494462 Log opened 2017-03-21T17:04:06.385800000Z
+00:00:00.494463 Build Type: release
+00:00:00.494465 OS Product: Linux
+00:00:00.494466 OS Release: 4.9.13-201.fc25.x86_64
+00:00:00.494466 OS Version: #1 SMP Tue Mar 7 23:47:11 UTC 2017
+00:00:00.494528 DMI Product Name: UX330UAK
+00:00:00.494537 DMI Product Version: 1.0       
+00:00:00.494586 Host RAM: 7864MB (7.6GB) total, 5602MB (5.4GB) available
+00:00:00.494589 Executable: /usr/lib64/virtualbox/VirtualBox
+00:00:00.494590 Process ID: 10076
+00:00:00.494590 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.494610 Qt version: 5.7.1
+00:00:00.507960 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.606740 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x27 x 1920x1053

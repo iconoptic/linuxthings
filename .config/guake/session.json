@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1579802389,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/btgrant"
+                        }
+                    ],
+                    "label": "btgrant@localhost:~",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+exec -a banshee mono  /usr/lib64/banshee/Banshee.exe    --redirect-log --play-enqueued
+
+[Info  00:34:03.747] Running Banshee 2.6.2: [Fedora24-2.6.2-15.fc24 (linux-gnu, x86_64) @ 2016-02-12 19:15:38 UTC]
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+
+(Banshee:10483): Gtk-WARNING **: Unable to locate theme engine in module_path: "murrine",
+[Warn  00:34:04.243] Cannot connect to NetworkManager or Wicd - An available, working network connection will be assumed
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkComponent) to class (__gtksharp_49_Hyena_Gui_BaseWidgetAccessible) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_50_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_TrackInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_50_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_TrackInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  00:34:04.858] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) <0x40204990 + 0x004e7> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].EmitModelChanged () <0x40204910 + 0x0003b> in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) <0x40204830 + 0x0003c> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].OnModelChanged (System.Object o, System.EventArgs a) <0x40204740 + 0x000cb> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T]..ctor (GLib.Object widget) <0x401fe6b0 + 0x00463> in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[T].Init () <0x401fd320 + 0x00093> in <filename unknown>:0 
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_55_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_Database_QueryFilterInfo+601+5b+5bSystem_String+2c+20mscorlib+2c+20Version+3d4_0_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3db77a5c561934e089+5d+5d+2c+20Banshee_Services+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_55_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_Database_QueryFilterInfo+601+5b+5bSystem_String+2c+20mscorlib+2c+20Version+3d4_0_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3db77a5c561934e089+5d+5d+2c+20Banshee_Services+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  00:34:04.892] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) <0x40204990 + 0x004e7> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].EmitModelChanged () <0x40204910 + 0x0003b> in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) <0x40204830 + 0x0003c> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].OnModelChanged (System.Object o, System.EventArgs a) <0x40204740 + 0x000cb> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T]..ctor (GLib.Object widget) <0x401fe6b0 + 0x00463> in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[T].Init () <0x401fd320 + 0x00093> in <filename unknown>:0 
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_60_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_ArtistInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_60_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_ArtistInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  00:34:04.907] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) <0x40204990 + 0x004e7> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].EmitModelChanged () <0x40204910 + 0x0003b> in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) <0x40204830 + 0x0003c> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].OnModelChanged (System.Object o, System.EventArgs a) <0x40204740 + 0x000cb> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T]..ctor (GLib.Object widget) <0x401fe6b0 + 0x00463> in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[T].Init () <0x401fd320 + 0x00093> in <filename unknown>:0 
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_65_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_YearInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_65_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_YearInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  00:34:04.911] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) <0x40204990 + 0x004e7> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].EmitModelChanged () <0x40204910 + 0x0003b> in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) <0x40204830 + 0x0003c> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].OnModelChanged (System.Object o, System.EventArgs a) <0x40204740 + 0x000cb> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T]..ctor (GLib.Object widget) <0x401fe6b0 + 0x00463> in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[T].Init () <0x401fd320 + 0x00093> in <filename unknown>:0 
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkSelection) to class (__gtksharp_70_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_AlbumInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+
+(Banshee:10483): GLib-GObject-WARNING **: attempting to add an interface (AtkTable) to class (__gtksharp_70_Hyena_Data_Gui_Accessibility_ListViewAccessible+601+5b+5bBanshee_Collection_AlbumInfo+2c+20Banshee_Core+2c+20Version+3d2_6_0_0+2c+20Culture+3dneutral+2c+20PublicKeyToken+3dnull+5d+5d) after class_init
+[Warn  00:34:04.915] Initialization of accessibility support for ListView widgets failed - System.ArgumentException: Invalid signal name: model_changed (in `glib-sharp')
+  at GLib.Signal.Emit (GLib.Object instance, System.String detailed_signal, System.Object[] args) <0x40204990 + 0x004e7> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].EmitModelChanged () <0x40204910 + 0x0003b> in <filename unknown>:0 
+  at Hyena.ThreadAssist.ProxyToMain (Hyena.InvokeHandler handler) <0x40204830 + 0x0003c> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T].OnModelChanged (System.Object o, System.EventArgs a) <0x40204740 + 0x000cb> in <filename unknown>:0 
+  at Hyena.Data.Gui.Accessibility.ListViewAccessible`1[T]..ctor (GLib.Object widget) <0x401fe6b0 + 0x00463> in <filename unknown>:0 
+  at Hyena.Data.Gui.ListViewAccessibleFactory`1[T].Init () <0x401fd320 + 0x00093> in <filename unknown>:0 
+
+(Banshee:10483): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+[Info  00:34:05.101] Updating web proxy from GConf
+[Warn  00:34:05.326] Caught an exception - System.ApplicationException: No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () <0x40259800 + 0x003bf> in <filename unknown>:0 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) <0x40234390 + 0x0017c> in <filename unknown>:0 
+[Warn  00:34:05.326] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Warn  00:34:05.330] Caught an exception - System.ApplicationException: No support GNOME Settings Daemon could be reached. (in `Banshee.MultimediaKeys')
+  at Banshee.MultimediaKeys.MultimediaKeysService.Banshee.ServiceStack.IExtensionService.Initialize () <0x40259800 + 0x003bf> in <filename unknown>:0 
+  at Banshee.ServiceStack.ServiceManager.StartExtension (Mono.Addins.TypeExtensionNode node) <0x40234390 + 0x0017c> in <filename unknown>:0 
+[Warn  00:34:05.330] Extension `Banshee.MultimediaKeys.MultimediaKeysService' not started: No support GNOME Settings Daemon could be reached.
+[Info  00:34:05.332] All services are started 1.279436
+[Info  00:34:05.737] AmazonMP3 store redirect URL: http://integrated-services.banshee.fm/amz/redirect.do/
+[Info  00:34:05.972] nereid Client Started
+[Info  00:34:06.033] GStreamer version 1.7.1.0, gapless: True, replaygain: False
+System.DllNotFoundException: libnss_mdns-0.2.so
+  at (wrapper managed-to-native) Mono.Zeroconf.Providers.Bonjour.Native:DNSServiceCreateConnection (Mono.Zeroconf.Providers.Bonjour.ServiceRef&)
+  at Mono.Zeroconf.Providers.Bonjour.Zeroconf.Initialize () <0x40322410 + 0x0001b> in <filename unknown>:0 
+  at Mono.Zeroconf.Providers.Bonjour.ZeroconfProvider.Initialize () <0x403223f0 + 0x0000b> in <filename unknown>:0 
+  at Mono.Zeroconf.Providers.ProviderFactory.GetProviders () <0x403074f0 + 0x00782> in <filename unknown>:0 
+
+(Banshee:10483): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+
+(Banshee:10483): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+[Warn  00:34:34.808] Caught an exception - GLib.GException: The FTP server is busy. Try again later (in `gio-sharp')
+  at GLib.FileAdapter.EnumerateChildren (System.String attributes, FileQueryInfoFlags flags, GLib.Cancellable cancellable) <0x40344c80 + 0x00153> in <filename unknown>:0 
+  at Banshee.IO.Gio.Directory+<GetFiles>c__Iterator0.MoveNext () <0x403444d0 + 0x000c4> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x005bd> in <filename unknown>:0 
+[Warn  00:34:34.812] Caught an exception - GLib.GException: The FTP server is busy. Try again later (in `gio-sharp')
+  at GLib.FileAdapter.EnumerateChildren (System.String attributes, FileQueryInfoFlags flags, GLib.Cancellable cancellable) <0x40344c80 + 0x00153> in <filename unknown>:0 
+  at Banshee.IO.Gio.Directory+<GetFiles>c__Iterator0.MoveNext () <0x403444d0 + 0x000c4> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x005bd> in <filename unknown>:0 
+[Warn  00:35:04.816] Caught an exception - GLib.GException: The FTP server is busy. Try again later (in `gio-sharp')
+  at GLib.FileAdapter.EnumerateChildren (System.String attributes, FileQueryInfoFlags flags, GLib.Cancellable cancellable) <0x40344c80 + 0x00153> in <filename unknown>:0 
+  at Banshee.IO.Gio.Directory+<GetFiles>c__Iterator0.MoveNext () <0x403444d0 + 0x000c4> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x005bd> in <filename unknown>:0 
+[Warn  00:35:34.821] Caught an exception - GLib.GException: The FTP server is busy. Try again later (in `gio-sharp')
+  at GLib.FileAdapter.EnumerateChildren (System.String attributes, FileQueryInfoFlags flags, GLib.Cancellable cancellable) <0x40344c80 + 0x00153> in <filename unknown>:0 
+  at Banshee.IO.Gio.Directory+<GetFiles>c__Iterator0.MoveNext () <0x403444d0 + 0x000c4> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x005bd> in <filename unknown>:0 
+
+(Banshee:10483): Gdk-WARNING **: gdk_window_set_icon_list: icons too large
+[Warn  00:36:49.387] Caught an exception - GLib.GException: The FTP server is busy. Try again later (in `gio-sharp')
+  at GLib.FileAdapter.EnumerateChildren (System.String attributes, FileQueryInfoFlags flags, GLib.Cancellable cancellable) <0x40344c80 + 0x00153> in <filename unknown>:0 
+  at Banshee.IO.Gio.Directory+<GetFiles>c__Iterator0.MoveNext () <0x403444d0 + 0x000c4> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x005bd> in <filename unknown>:0 
+[Warn  00:36:49.389] Caught an exception - Hyena.Collections.ElementProcessCanceledException: Error in the application. (in `Hyena')
+  at Hyena.Collections.QueuePipelineElement`1[T].CheckForCanceled () <0x403426e0 + 0x0006f> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x0007d> in <filename unknown>:0 
+  at Banshee.IO.DirectoryScannerPipelineElement.ScanForFiles (System.String source, Boolean skip_hidden) <0x403428d0 + 0x0069b> in <filename unknown>:0 

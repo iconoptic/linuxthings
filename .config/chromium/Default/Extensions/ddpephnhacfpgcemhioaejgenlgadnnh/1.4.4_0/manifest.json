@@ -1,0 +1,27 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "jquery.qtip.min.css", "inject.css" ],
+      "exclude_globs": [ "https://*.youtube.com/*", "https://youtube.com/*", "http://*.youtube.com/*", "http://youtube.com/*", "http://*.google.*/search\\?*" ],
+      "include_globs": [ "*" ],
+      "js": [ "jquery.min.js", "jquery.qtip.min.js", "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Preloads any YouTube links and appends the title of the video to the link in the referring page.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+FlkA+AHWwtANS5Iqbrzv2RqtOVKPgzyFOBxWXA+j/Ijqab2OuUoQmC8HGBqayuv1xXjIH9/UAt+FrZHtEhK+1IG4/TiM20Q3gd6rjwV9Mua4qSUz/XNUjQrZ2UGZSv7lyujYQyiY2DXL2SjBCL9UQCHBADswLkIRo+UkqTfapwIDAQAB",
+   "manifest_version": 2,
+   "name": "Video Title Adder",
+   "options_page": "options.html",
+   "permissions": [ "http://gdata.youtube.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.4",
+   "web_accessible_resources": [ "icons/embed.svg", "icons/restricted.gif" ]
+}

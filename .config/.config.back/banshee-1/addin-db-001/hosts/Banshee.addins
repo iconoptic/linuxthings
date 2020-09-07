@@ -1,0 +1,3 @@
+<Addins host-reference="/usr/lib64/banshee/Banshee.exe">
+  <Directory shared="false">/usr/lib64/banshee</Directory>
+</Addins>

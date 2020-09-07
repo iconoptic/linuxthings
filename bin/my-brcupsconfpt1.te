@@ -1,0 +1,17 @@
+
+module my-brcupsconfpt1 1.0;
+
+require {
+	type ld_so_cache_t;
+	type cupsd_t;
+	class process execmem;
+	class file execute;
+}
+
+#============= cupsd_t ==============
+
+#!!!! This avc is allowed in the current policy
+allow cupsd_t ld_so_cache_t:file execute;
+
+#!!!! This avc is allowed in the current policy
+allow cupsd_t self:process execmem;

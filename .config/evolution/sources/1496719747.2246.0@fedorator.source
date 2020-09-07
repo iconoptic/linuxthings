@@ -1,0 +1,43 @@
+[Data Source]
+DisplayName=btgrant@gmail.com
+Enabled=true
+Parent=
+
+[GNOME Online Accounts]
+AccountId=account_1496719746_0
+CalendarUrl=https://apidata.googleusercontent.com/caldav/v2/btgrant@gmail.com/user
+ContactsUrl=https://www.googleapis.com/.well-known/carddav
+
+Name=
+Address=btgrant@gmail.com
+
+[Collection]
+BackendName=google
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=btgrant@gmail.com
+MailEnabled=true
+
+CalendarUrl=
+ContactsUrl=
+
+[Authentication]
+Host=
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+
+[WebDAV Backend]
+AvoidIfmatch=false
+CalendarAutoSchedule=false
+DisplayName=
+EmailAddress=
+ResourcePath=
+ResourceQuery=
+SslTrust=
+
+[Security]
+Method=none

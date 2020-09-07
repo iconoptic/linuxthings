@@ -1,0 +1,93 @@
+<monitors version="1">
+  <configuration>
+    <clone>no</clone>
+    <output name="eDP-1">
+      <vendor>AUO</vendor>
+      <product>0x272d</product>
+      <serial>0x00000000</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60.049468994140625</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-1">
+      <vendor>DEL</vendor>
+      <product>DELL U2412M</product>
+      <serial>YMYH12BS1ENL</serial>
+      <width>1920</width>
+      <height>1200</height>
+      <rate>59.950172424316406</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>AUO</vendor>
+      <product>0x272d</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-1">
+      <vendor>SAM</vendor>
+      <product>SAMSUNG</product>
+      <serial>0x01000e00</serial>
+      <width>3840</width>
+      <height>2160</height>
+      <rate>29.970001220703125</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>AUO</vendor>
+      <product>0x272d</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="HDMI-1">
+      <vendor>GSM</vendor>
+      <product>LG TV</product>
+      <serial>0x01010101</serial>
+      <width>4096</width>
+      <height>2160</height>
+      <rate>24</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+      <underscanning>no</underscanning>
+    </output>
+    <output name="eDP-1">
+      <vendor>AUO</vendor>
+      <product>0x272d</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+</monitors>

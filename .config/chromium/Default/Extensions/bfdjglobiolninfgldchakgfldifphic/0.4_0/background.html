@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/qrcode.min.js"></script>
+  </head>
+  <body>
+    <input type="text" id="hbnaclhngkhpmpgmfakaghgjbblokeeh" />
+    <script>
+      function read(d){
+        var p=/^(https?|ftp|file):\/\/[-A-Za-z0-9+&@#\/%?=~_|!:,.;]*[-A-Za-z0-9+&@#\/%=~_|]$/;
+        if(p.test(d)){
+          chrome.tabs.create({url:d});
+        }else{
+          msg(d);
+        }
+      }
+      function copyToClipboard(str) {
+        var obj=document.getElementById("hbnaclhngkhpmpgmfakaghgjbblokeeh");
+        if( obj ){
+          obj.value = str;
+          obj.select();
+          document.execCommand("copy", false, null);
+        }
+      }
+      function msg(v){
+        if(v=="error decoding QR Code"){
+          alert("That image doesn't contain valid qr code or we can't read it. :(");
+        }else{
+          var r=confirm("QR code value (press ok to copy it to clipboard):"+'\n\n'+v);
+          if (r==true){
+            copyToClipboard(v);
+          }
+        }
+      }
+      function getClickHandler(){
+        return function(info,tab){
+          var url=info.srcUrl;
+          qrcode.decode(url);
+          qrcode.callback = read;
+        };
+      };
+      chrome.contextMenus.create({
+        "title" : "Read QR code from image",
+        "type" : "normal",
+        "contexts" : ["image"],
+        "onclick" : getClickHandler()
+      });
+    </script>
+  </body>
+</html>

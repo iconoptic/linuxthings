@@ -1,0 +1,44 @@
+/* reddit specificity fix */
+html body img.ytta-restricted-icon,
+html body img.ytta-embed-icon {
+    padding-right: 3px;
+    padding-left: 3px;
+    display: inline;
+}
+
+.ytta-embed-icon:hover {
+    cursor: pointer;
+}
+
+.ytta-embed-disabled {
+    display: none;
+}
+
+.ytta-embed-enabled {
+    display: block;
+}
+
+.ytta-tooltip .qtip-content {
+    padding: 0px;
+}
+
+.ytta-tooltip div img {
+    display: inline-block;
+}
+
+.ytta-vote-up {
+    background-color: green;
+    height: 3px;
+}
+.ytta-vote-down {
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    padding: 0px;
+}
+
+.ytta-video-length {
+    font-size: x-small;
+    color: gray;
+    padding-left: 0.5em;
+}

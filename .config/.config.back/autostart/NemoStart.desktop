@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=NemoAutostart
+GenericName=Nemo autostart with no window
+Exec=/home/btgrant/scripts/nemo-autostart.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
