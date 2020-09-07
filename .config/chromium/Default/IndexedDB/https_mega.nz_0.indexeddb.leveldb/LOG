@@ -1,9 +1,0 @@
-2017/06/26-20:47:57.177 6138 Reusing MANIFEST /home/btgrant/.config/chromium/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
-2017/06/26-20:47:57.311 6138 Current memtable full; waiting...
-2017/06/26-20:47:57.311 12346 Level-0 table #5: started
-2017/06/26-20:47:57.314 12346 Level-0 table #5: 3181 bytes OK
-2017/06/26-20:47:57.317 12346 Delete type=0 #3
-2017/06/26-20:47:57.317 12346 Level-0 table #7: started
-2017/06/26-20:47:57.317 12346 Level-0 table #7: 0 bytes OK
-2017/06/26-20:47:57.319 12346 Delete type=0 #4
-2017/06/26-20:47:57.319 12346 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=sh "/home/btgrant/.conky/conky-startup.sh"
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-_Name=Conky
-_Comment=

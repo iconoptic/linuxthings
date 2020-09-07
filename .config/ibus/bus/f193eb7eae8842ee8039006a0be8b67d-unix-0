@@ -1,3 +1,0 @@
-# This file is created by ibus-daemon, please do not modify it
-IBUS_ADDRESS=unix:abstract=/home/btgrant/.cache/ibus/dbus-ubehtQoy,guid=6e66b776e957436110da8d435e585257
-IBUS_DAEMON_PID=4930

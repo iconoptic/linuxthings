@@ -1,6 +1,0 @@
-2017/07/06-12:36:46.362 4409 Reusing MANIFEST /home/btgrant/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/07/06-12:36:46.363 4409 Recovering log #40
-2017/07/06-12:36:46.380 4409 Reusing old log /home/btgrant/.config/chromium/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000040.log 
-2017/07/06-12:37:04.500 5428 Level-0 table #45: started
-2017/07/06-12:37:04.510 5428 Level-0 table #45: 924965 bytes OK
-2017/07/06-12:37:04.513 5428 Delete type=0 #40

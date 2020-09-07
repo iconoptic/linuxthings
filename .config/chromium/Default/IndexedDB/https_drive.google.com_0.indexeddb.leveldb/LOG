@@ -1,9 +1,0 @@
-2017/07/05-23:56:19.624 25686 Reusing MANIFEST /home/btgrant/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/07/05-23:56:19.624 25686 Recovering log #196
-2017/07/05-23:56:19.635 25686 Reusing old log /home/btgrant/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000196.log 
-2017/07/05-23:56:20.955 26187 Level-0 table #200: started
-2017/07/05-23:56:20.975 26187 Level-0 table #200: 635960 bytes OK
-2017/07/05-23:56:21.002 26187 Delete type=0 #196
-2017/07/05-23:56:21.200 26187 Level-0 table #202: started
-2017/07/05-23:56:21.219 26187 Level-0 table #202: 691632 bytes OK
-2017/07/05-23:56:21.241 26187 Delete type=0 #199
