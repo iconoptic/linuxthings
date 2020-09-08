@@ -494,9 +494,3 @@ ahelp () {
 		echo -e "${BGreen}ahelp${NC}: prints this help.\n"
 
 }
-#Working command:
-# find -type f | egrep -v .comp | xargs -n10 -P10 -I ,, bash -c tee >(md5sum ",," | cut -d" " -f1) >(dir=$(pwd | rev | cut -d"/" -f1 | rev); ssh btgrant@aion.feralhosting.com md5sum \"private/transmission/data/Mixed Movie Pack 46 720p BRRips DiVERSiTY/$dir/,,\" | cut -d" " -f1) | xargs echo > .comp; cat .comp | while read line; do echo $line; compstr $line; done
-
-#Working command: # ls Game.of.Thrones.S07E05.Eastwatch.1080p.AMZN.WEB-DL.DDP5.1.H.264-GoT.mkv | xargs -n10 -P10 -I ,, bash -c tee >(md5sum ,, | cut -d  -f1) >(ssh btgrant@aion.feralhosting.com md5sum "private/transmission/data/,," | cut -d  -f1) | xargs echo > .comp; cat .comp | while read line; do echo $line; compstr $line; done
-
-# while true; do echo `du -shb TV/Community S01-S05 - WEB-DL 720p - Team Speed/ | cut -f1`/`ssh btgrant@aion.feralhosting.com du -shb private/transmission/data/Community\ S01-S05\ -\ WEB-DL\ 720p\ -\ Team\ Speed/clear | cut -f1`*100 | xargs tcalc -q -d3 | xargs -I ,, echo -ne ${BWhite}${On_Red},,; echo -e %${NC}; sleep 30s; done
